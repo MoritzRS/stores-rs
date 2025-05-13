@@ -1,6 +1,8 @@
+mod deduped;
 mod derived;
 mod observable;
 
+pub use deduped::Deduped;
 pub use derived::Derived;
 pub use observable::Observable;
 
