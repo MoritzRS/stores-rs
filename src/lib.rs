@@ -1,5 +1,7 @@
+mod derived;
 mod observable;
 
+pub use derived::Derived;
 pub use observable::Observable;
 
 /// Enum to differentiate between Emitter and Readable subscriptions.
