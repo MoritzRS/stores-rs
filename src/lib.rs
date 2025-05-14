@@ -1,10 +1,12 @@
 mod deduped;
 mod derived;
+mod event;
 mod observable;
 mod utils;
 
 pub use deduped::Deduped;
 pub use derived::Derived;
+pub use event::Event;
 pub use observable::Observable;
 
 /// Enum to differentiate between Emitter and Readable subscriptions.
